@@ -32,7 +32,7 @@ const material = new three.MeshStandardMaterial({
 // scene.add(obj);
 
 const loader = new GLTFLoader();
-loader.load('models/1 - Untitled Room.gltf', function (obj) {
+loader.load('./models/room.gltf', function (obj) {
     scene.add(obj.scene);
 
     obj.scene.scale.set(8, 8, 8);
